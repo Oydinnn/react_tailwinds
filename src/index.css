@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.container{
+  @apply w-[90%] m-auto
+}
+
+.link{
+  @apply  opacity-[60%]
+}
+
+.p{
+  @apply text-[16px] font-normal text-[#707178]
+}
+
+.h2{
+  @apply text-5xl font-semibold leading-14 text-[#232536]
+}
+
+.span{
+  @apply text-[14px] font-medium opacity-55 leading-5 mb-4
+}
+
+.h6{
+  @apply text-xl font-semibold
+}
