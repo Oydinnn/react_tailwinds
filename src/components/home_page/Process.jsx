@@ -12,7 +12,7 @@ export default function Process() {
         </p>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex gap-8  mb-8">
         <div className="w-[30%] p-7 border border-solid border-[#2325362B] flex justify-between gap-8 items-center">
           <img
             className="w-6 h-6"
@@ -20,8 +20,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">01</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.
@@ -36,8 +38,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">02</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.
@@ -53,8 +57,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">03</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.
@@ -74,8 +80,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">04</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.
@@ -90,8 +98,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">05</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.
@@ -107,8 +117,10 @@ export default function Process() {
             alt="IconHeadphone"
           />
           <div>
-            <p>01</p>
-            <h6 className="h6">Discover</h6>
+            <div className="relative flex justify-between">
+              <h6 className="h6">Discover</h6>
+              <p className="absolute top-[-20px] right-0 text-2xl opacity-20 font-semibold leading-8">06</p>
+            </div>
             <p className="p">
               We aim to attain the greatest satisfaction for our clients and be
               one of the prominent.

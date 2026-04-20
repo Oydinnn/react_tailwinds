@@ -8,11 +8,11 @@ export default function Service() {
             We build software solutions that solve client's business challenges
           </h2>
           <a
-            class="relative flex justify-between items-center  w-[219px] h-[64px] bg-[#444CFC] py-5 px-8"
+            className="relative flex justify-between items-center  w-[219px] h-[64px] bg-[#444CFC] py-5 px-8"
             href="#"
           >
             <img
-              class="absolute top-0 left-0"
+              className="absolute top-0 left-0"
               src="./img/Shapes.svg"
               alt="shape"
             />

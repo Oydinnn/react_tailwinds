@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Hero() {
   return (
     <div className="container">
       <div className="flex justify-between gap-[100px]">
