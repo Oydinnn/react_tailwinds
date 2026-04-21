@@ -18,7 +18,7 @@ export default function Header(){
             <img src="./img/Icon.svg" alt="button"/>
           </a>
         </div>
-        <img className="w-[523px] h-[632px]" src="./img/Header Image.svg" alt="" />
+        <img className="w-[523px] h-[632px]" src="./img/HeaderImage.svg" alt="" />
         
       </div>
 
@@ -30,19 +30,19 @@ export default function Header(){
             <p>We've Worked with</p>
           </li>
           <li>
-            <img src="./img/Logo — копия.svg" alt="logo"/>
+            <img src="./img/Logoo.svg" alt="logo"/>
           </li>
           <li>
-            <img src="./img/Logo (1).svg" alt="logo"/>
+            <img src="./img/Logo1.svg" alt="logo"/>
           </li>
           <li>
-            <img src="./img/Logo — копия 2.svg" alt="logo"/>
+            <img src="./img/Logo2.svg" alt="logo"/>
           </li>
           <li>
-            <img src="./img/Logo — копия 3.svg" alt="logo"/>
+            <img src="./img/Logo3.svg" alt="logo"/>
           </li>
           <li>
-            <img src="./img/Logo (1) — копия.svg" alt="logo"/>
+            <img src="./img/Logo1.svg" alt="logo"/>
           </li>
         </ul>
        </div>
