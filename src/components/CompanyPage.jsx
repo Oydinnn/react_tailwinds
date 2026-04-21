@@ -176,18 +176,24 @@ export default function CompanyPage(){
           <h3 className="h3 mb-6">Teamwork is the only way we work</h3>
           <p className="p mb-16">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable.</p>
         </div>
+
+
+
+
+
         
         <div className="flex gap-4 mb-4">
           {[Team1, Team2, Team3, Team4].map((team, index) => (
             <div key={index} className="relative group w-[25%] h-80 overflow-hidden rounded-lg">
-              <img 
-                src={team}
-                alt={`Team member ${index + 1}`}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              
+              <Link to='/teamTemplate'>
+                <img 
+                  src={team}
+                  alt={`Team member ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </Link> 
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500  pointer-events-none">
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                   <h3 className="text-white text-xl font-bold mb-1">Javena Melo</h3>
                   <p className="text-gray-200 text-sm mb-3">Support Assist</p>
@@ -213,14 +219,15 @@ export default function CompanyPage(){
         <div className="flex gap-4">
           {[Team5, Team6, Team7, Team8].map((team, index) => (
             <div key={index + 4} className="relative group w-[25%] h-80 overflow-hidden rounded-lg">
-              <img 
-                src={team}
-                alt={`Team member ${index + 5}`}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              
+              <Link to='/teamTemplate' className="cursor-pointer block" style={{display: 'block', width: '100%', height: '100%'}}>
+                <img 
+                  src={team}
+                  alt={`Team member ${index + 5}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </Link>
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500  pointer-events-none">
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                   <h3 className="text-white text-xl font-bold mb-1">Team Member</h3>
                   <p className="text-gray-200 text-sm mb-3">Position</p>
@@ -243,9 +250,6 @@ export default function CompanyPage(){
           ))}
         </div>
       </div>
-
-
-
 
     </div>
     

@@ -1,13 +1,7 @@
 import ShapeRight from '../../public/img/ShapeRight.svg'
 import Careers from '../../public/img/careers.png'
 import Apply from '../../public/img/Apply.svg'
-
-
-
-
-
-
-
+import { Link } from 'react-router-dom'
 
 
 export default function CareerPage(){
@@ -29,25 +23,25 @@ export default function CareerPage(){
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+              <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
           </div>
@@ -57,25 +51,25 @@ export default function CareerPage(){
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
           </div>
@@ -85,25 +79,25 @@ export default function CareerPage(){
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
             <div className='w-1/3 bg-white p-12'>
               <h6 className="h6 mb-2.5">Full Stack Developer</h6>
               <p className="p mb-12">Bengaluru · Full Time. <br /> $10K - $18K · No equity</p>
-              <a href="#">
+               <Link to="/innerCareer">
                 <img src={Apply} alt="Apply img for link" />
-              </a>
+              </Link>
             </div>
 
           </div>

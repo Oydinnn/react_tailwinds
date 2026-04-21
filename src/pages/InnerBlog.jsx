@@ -1,12 +1,13 @@
 import Nav from "../components/Nav"
 import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
-import BlogPage from "../components/BlogPage"
-export default function Blog(){
+import InnerBlogPage from "../components/InnerBlogPage"
+
+export default function InnerBlog(){
   return(
     <div>
       <Nav/>
-      <BlogPage/>
+      <InnerBlogPage />
       <Newsletter/>
       <Footer/>
     </div>

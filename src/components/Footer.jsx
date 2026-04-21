@@ -41,11 +41,11 @@ export default function Footer() {
 
             <ul className="flex flex-col gap-3">
               <li><Link className="h6" to="/resources">Resources</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/testimonial">Testimonial</Link></li>
-              <li><Link to="/privacy">Privacy Policy</Link></li>
-              <li><Link to="/terms">Terms of use</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/#about" className="hover:text-blue-500">About Us</Link></li>
+              <li><Link to="/#testimonial" className="hover:text-blue-500">Testimonial</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-blue-500">Privacy Policy</Link></li>
+              <li><Link to="/#terms" className="hover:text-blue-500">Terms of use</Link></li>
+              <li><Link to="/#blog" className="hover:text-blue-500">Blog</Link></li>
             </ul>
           </div>
 

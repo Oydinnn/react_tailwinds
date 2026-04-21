@@ -1,6 +1,17 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 export default function Blog(){
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return(
-    <div className="bg-[#ECF8F9] py-24">
+    <div id="blog" className="bg-[#ECF8F9] py-24">
       <div className="relative container ">
         <img className="absolute top-[-30px] left-0" src="./img/ShapeSquare.svg" alt="ShapeSquare.svg" />
         <h2 className="h2 mb-12">Read our latest blogs & news</h2>

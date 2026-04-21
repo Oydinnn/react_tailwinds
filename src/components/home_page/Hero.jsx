@@ -1,8 +1,21 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 export default function Hero() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return (
     <div className="container">
       <div className="flex justify-between gap-[100px]">
-        <div>
+        <div id="about" className="scroll-mt-24">
           <span className="span">
             ABOUT US
           </span>

@@ -1,13 +1,13 @@
 import Nav from "../components/Nav"
 import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
-import BlogPage from "../components/BlogPage"
-export default function Blog(){
+import PrivacyPolicyPage from "../components/PrivacyPolicyPage"
+
+export default function PrivacyPolicy (){
   return(
     <div>
       <Nav/>
-      <BlogPage/>
-      <Newsletter/>
+      <PrivacyPolicyPage/>
       <Footer/>
     </div>
   )

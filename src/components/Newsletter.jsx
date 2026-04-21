@@ -1,3 +1,5 @@
+import ShapesTestimonial from '../../public/img/ShapesTestimonial.svg'
+
 export default function Newsletter(){
   return(
     <div className="container relative">
@@ -12,7 +14,7 @@ export default function Newsletter(){
             <input className="w-full py-5 px-8 bg-white text-gray-600" type="text" placeholder="Paresh@Pixeto.com" />
           </div>
         </div>
-        <img src="./img/ShapesTestimonial.svg" alt="ShapesTestimonial.svg" />
+        <img src={ShapesTestimonial} alt="ShapesTestimonial" />
       </div>
     </div>
   )

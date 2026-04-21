@@ -1,6 +1,17 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 export default function Testimonial(){
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return(
-    <div className=" bg-[#F9F9FF]">
+    <div id="testimonial" className="bg-[#F9F9FF]">
       <div className="container flex justify-between gap-32 ">
         <div className="relative mt-24 flex justify-between gap-32">
           <img className="absolute top-[-16px] left-0" src="./img/ShapeSquare.svg" alt="ShapeSquare.svg" />
